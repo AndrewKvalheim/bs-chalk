@@ -1,0 +1,7 @@
+# BuckleScript
+/.bsb.lock
+/.merlin
+/lib/
+
+# Yarn
+/node_modules/

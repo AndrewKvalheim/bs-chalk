@@ -1,0 +1,17 @@
+{
+  "name": "bs-chalk",
+  "version": "0.0.0",
+  "description": "BuckleScript bindings to chalk",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  },
+  "devDependencies": {
+    "bs-jest": "^0.2.0",
+    "bs-platform": "^1.10.3"
+  },
+  "scripts": {
+    "start": "bsb -clean-world -make-world -w",
+    "test": "jest --watch"
+  }
+}
